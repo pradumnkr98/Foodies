@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="edittext">#F6CD5D83</color>
+    <color name="white">#ffffff</color>
+    <color name="azure">#c6d1a0bb</color>
+    <color name="green">#FFC2EA5D</color>
+    <color name="transparent">#11000000</color>
+    <color name="lessopacity">#FF1F9EA7</color>
+    <color name="black">#FF090909</color>
+</resources>
