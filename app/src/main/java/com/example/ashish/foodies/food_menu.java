@@ -6,11 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
 
 public class food_menu extends AppCompatActivity {
     CardView starters, maincourse, desert, drinks, todayspecial;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,8 @@ public class food_menu extends AppCompatActivity {
         desert = findViewById(R.id.desert);
         drinks = findViewById(R.id.drinks);
         todayspecial = findViewById(R.id.todayspecial);
+        toolbar = findViewById(R.id.toolbar);
+        toolbar.setNavigationIcon(R.drawable.navigation_menu);
 
         final String[] data = {"Chinese", "Italian", "North Indian", "Fast food", "South Indian", "Bakery"};
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayout.HORIZONTAL, false));
